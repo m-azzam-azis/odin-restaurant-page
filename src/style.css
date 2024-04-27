@@ -1,9 +1,26 @@
 :root {
   background-color: darkgoldenrod;
-  size: 100px;
 }
 
 body {
-  width: 100%;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+nav {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px auto;
+}
+
+#content {
+  border: solid brown;
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px auto;
+  padding: 20px;
 }
